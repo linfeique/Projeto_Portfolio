@@ -6,20 +6,19 @@
     <title>Meu Portfólio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css">
     <script src="js/main.js"></script>
 </head>
 <body>
     <header>
         <div class="icons">
-            <img src="imagens/if_Pinterest_194917.svg" alt="Logo do Pinterest">
-            <img src="imagens/if_github_291716.svg" alt="Logo do Github">
-            <img src="imagens/if_linkedin_circle_black_107159.svg" alt="Logo do Linkedin">
-            <img src="imagens/if_46-facebook_104458.svg" alt="Logo do facebook">
+            <a href="#"><img src="imagens/if_online_social_media_pinterest_734382.svg" alt="Logo do Pinterest"></a>
+            <a href="#"><img src="imagens/if_github_291716.svg" alt="Logo do Github"></a>
+            <a href="#"><img src="imagens/if_linkedin_circle_black_107159.svg" alt="Logo do Linkedin"></a>
+            <a href="#"><img src="imagens/if_46-facebook_104458.svg" alt="Logo do facebook"></a>
         </div>
         <div class="perfil">
-            <div class="circle">
-                <img src="imagens/eumesmo.jpg" alt="Imagem de perfil">
-            </div>
+            <div class="circle"></div>
             <div class="perfil_text">
                 <span class="span1">matheus custódio santos</span>
                 <span class="span2">Web Designer</span>
@@ -45,7 +44,7 @@
         </div>
         <div class="break"></div>
         <h2>tecnologias</h2>
-        <div class="quadrado"><img src="imagens/code.svg"></div>
+        <div class="quadrado"><img src="imagens/code.svg" width="60px" height="60px"></div>
         <div class="quadrado"><img src=""></div>
         <div class="quadrado"><img src=""></div>
         <div class="quadrado"><img src=""></div>
@@ -64,5 +63,14 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tooltipped').tooltip({ delay: 50 });
+        });
+    </script>
 </body>
 </html>
