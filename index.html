@@ -27,18 +27,62 @@
     </header>
     <div class="break"></div>
     <main>
-        <h2>sobre mim</h2>
+        <div class="main_title">
+            <h2>sobre mim</h2>
+        </div>
         <div class="sobre_itens">
             <div class="sobre_item">
-                <div class="retangulo"></div>
-                <span>Curso de Aprendizagem Industrial</span>
+                <div class="retangulo">
+                    <div href="#modal1" class="waves-effect waves-light modal-trigger modalss">saber sobre</div>
+                    <div id="modal1" class="modal modal_one">
+                        <div class="conteudo1">
+                            <h4>Curso de Aprendizagem Industrial</h4>
+                            <p>
+                                No ano de 2017 passei no processo seletivo do senai de informática, entrando assim no Curso de Aprendizagem Industrial(CAI).
+                                Nesse curso obtive bastante experiência no âmbito da informática
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Sair</a>
+                        </div>
+                    </div>
+                </div>
+                <span>Curso de Aprendizagem</span>
             </div>
             <div class="sobre_item">
-                <div class="retangulo"></div>
+                <div class="retangulo">
+                    <div href="#modal1" class="waves-effect waves-light modal-trigger modalss">saber sobre</div>
+                    <div id="modal1" class="modal modal_two">
+                        <div class="conteudo2">
+                            <h4>Curso de Aprendizagem Industrial</h4>
+                            <p>
+                                No ano de 2017 passei no processo seletivo do senai de informática, entrando assim no Curso
+                                de Aprendizagem Industrial(CAI). Nesse curso obtive bastante experiência no âmbito da informática
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Sair</a>
+                        </div>
+                    </div>
+                </div>
                 <span>Cursos Online</span>
             </div>
             <div class="sobre_item">
-                <div class="retangulo"></div>
+                <div class="retangulo">
+                    <div href="#modal1" class="waves-effect waves-light modal-trigger modalss">saber sobre</div>
+                    <div id="modal1" class="modal modal_tree">
+                        <div class="conteudo3">
+                            <h4>Curso de Aprendizagem Industrial</h4>
+                            <p>
+                                No ano de 2017 passei no processo seletivo do senai de informática, entrando assim no Curso de Aprendizagem Industrial(CAI).
+                                Nesse curso obtive bastante experiência no âmbito da informática
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Sair</a>
+                        </div>
+                    </div>
+                </div>
                 <span>Curso Técnico</span>
             </div>
         </div>
@@ -63,13 +107,13 @@
             </div>
         </div>
     </footer>
-
-
+    
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.tooltipped').tooltip({ delay: 50 });
+            // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+            $('.modal').modal();
         });
     </script>
 </body>
