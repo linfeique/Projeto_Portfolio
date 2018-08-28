@@ -73,9 +73,14 @@
     text-align: center;
 }
 
+.main_title h2{
+    margin-bottom: 70px;
+    color: #ef6c00;
+}
+
 .retangulo{
-    width: 279px;
-    height: 248px;
+    width: 1114px;
+    height: 600px;
     border: 2px solid #ef6c00;
     border-radius: 10px; 
     display: flex;
@@ -99,7 +104,8 @@
     display: flex;
     width: 1114px;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .sobre_item{
@@ -110,10 +116,6 @@
 
 .sobre_item span{
     margin-top: 25px;
-}
-
-.modal_one{
-   
 }
 
 .conteudo1{
