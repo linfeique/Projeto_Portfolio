@@ -33,45 +33,65 @@
         <div class="sobre_itens">
             <div class="sobre_item">
                 <div class="retangulo">
-                        <div class="carousel carousel-slider center" data-indicators="true">
-                            <div class="carousel-fixed-item center">
-                                <a class="btn waves-effect white grey-text darken-text-2">button</a>
-                            </div>
-                            <div class="carousel-item red white-text" href="#one!">
-                                <h2>First Panel</h2>
-                                <p class="white-text">This is your first panel</p>
-                            </div>
-                            <div class="carousel-item amber white-text" href="#two!">
-                                <h2>Second Panel</h2>
-                                <p class="white-text">This is your second panel</p>
-                            </div>
-                            <div class="carousel-item green white-text" href="#three!">
-                                <h2>Third Panel</h2>
-                                <p class="white-text">This is your third panel</p>
-                            </div>
-                            <div class="carousel-item blue white-text" href="#four!">
-                                <h2>Fourth Panel</h2>
-                                <p class="white-text">This is your fourth panel</p>
-                            </div>
+                        <div class="slider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="imagens/monitoramneto.png">
+                                    <div class="caption center-align">
+                                        <h3 class="light grey-text text-lighten-3">Curso de Aprendizagem Industrial</h3>
+                                        <h5 class="light grey-text text-lighten-3">Se quiser saber mais clique no botão</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="imagens/cursos_online.jpg">
+                                    <div class="caption right-align">
+                                        <h3 class="light grey-text text-lighten-3">Cursos Online</h3>
+                                        <h5 class="light grey-text text-lighten-3">Se quiser saber mais clique no botão</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="imagens/tecnico.jpg">
+                                    <div class="caption left-align">
+                                        <h3 class="light grey-text text-lighten-3">Cursos Técnico</h3>
+                                        <h5 class="light grey-text text-lighten-3">Se quiser saber mais clique no botão</h5>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    <!-- <div href="#modal1" class="waves-effect waves-light modal-trigger modalss">saber sobre</div>
-                    <div id="modal1" class="modal modal_one">
-                        <div class="conteudo1">
-                            <h4>Curso de Aprendizagem Industrial</h4>
-                            <p>
-                                No ano de 2017 passei no processo seletivo do senai de informática, entrando assim no Curso de Aprendizagem Industrial(CAI).
-                                Nesse curso obtive bastante experiência no âmbito da informática
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Entendi</a>
-                        </div>
-                    </div> -->
+                </div>
+                <div href="#modal1" class="waves-effect waves-light modal-trigger modalss">saber sobre</div>
+                <div id="modal1" class="modal modal_one">
+                    <div class="conteudo1">
+                        <h4>Curso de Aprendizagem Industrial</h4>
+                        <p>
+                            No ano de 2017 passei no processo seletivo do senai de informática, entrando assim no Curso de Aprendizagem Industrial(CAI).
+                            Nesse curso obtive bastante experiência no âmbito da informática.
+                        </p>
+                        <br>
+                        <br>
+                        <h4>Cursos Online</h4>
+                        <p>
+                            Durante toda minha minha vida fiz diversos cursos online que me deram uma boa base, tanto em back-end quanto em
+                            front-end. Nesses cursos (e fora deles) fiz diversos projetos que podem ser vistos no <a href="https://github.com/linfeique" target="blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Link do Github">Github</a>.
+                        </p>
+                        <br>
+                        <br>
+                        <h4>Curso Técnico</h4>
+                        <p>
+                            Nesse ano prestei a prova para o processo seletivo do SENAI de Informática e passei entre os classificados. Não tenho
+                            muito de que falar desse curso já que não o terminei, mas já fiz alguns projetos que também estão no <a href="https://github.com/linfeique" target="blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Link do Github">Github</a>.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Entendi</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="break"></div>
-        <h2>tecnologias</h2>
+        <div class="main_title">
+            <h2>tecnologias</h2>
+        </div>
         <div class="quadrado"><img src="imagens/code.svg" width="60px" height="60px"></div>
         <div class="quadrado"><img src=""></div>
         <div class="quadrado"><img src=""></div>
@@ -101,7 +121,11 @@
         });
     </script>
     <script>
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $(document).ready(function(){
+            $('.slider').slider({
+                height: 400
+            });
+        });
     </script>
 </body>
 </html>
