@@ -122,3 +122,19 @@ body{
     border: 0;
     padding: 20px;
 }
+
+.quadrado_itens{
+    width: 1183,03px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quadrado{
+    width: 204px;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ef6c00;
+    border-radius: 10px;
+}
