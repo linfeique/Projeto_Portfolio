@@ -265,15 +265,30 @@ footer{
     color: white;
 }
 
+.footer_item{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer_itens{
-    width: 1000px;
+    display: flex;
+    width: 1394px;
     margin: auto;
+    justify-content: space-between;
 }
 
 .upspan{
     font-size: 20pt;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .downspan{
-    font-size: 16pt;    
+    font-size: 16pt;
+    margin-left: 26px;
+}
+
+.footer_itemm img{
+    width: 800px;
+    height: 300px;
 }
