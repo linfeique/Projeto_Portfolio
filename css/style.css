@@ -257,3 +257,23 @@ body{
     background-image: url("../imagens/carfel.jpg");
     background-size: cover;
 }
+
+footer{
+    height: 300px;
+    background-color: #212121;
+    margin-top: 100px;
+    color: white;
+}
+
+.footer_itens{
+    width: 1000px;
+    margin: auto;
+}
+
+.upspan{
+    font-size: 20pt;
+}
+
+.downspan{
+    font-size: 16pt;    
+}
