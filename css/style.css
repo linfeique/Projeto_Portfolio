@@ -35,7 +35,7 @@ body{
     width: 400px;
     height: 400px;
     border-radius: 200px;
-    background-image: url("../imagens/eumesmo.jpg");
+    background-image: url("../imagens/perfil.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -97,6 +97,10 @@ body{
     line-height: 36px;
     border-radius: 15px;
     cursor: pointer; 
+}
+
+.modal_one{
+    height: 500px !important;
 }
 
 .sobre_itens{
